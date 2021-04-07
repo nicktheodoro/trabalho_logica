@@ -42,11 +42,11 @@ programa {
           escreva("Deseja fazer outra operação?  ")
 		leia (resp)
 		
-		enquanto ((resp== "s")ou (resp=="S")){
+		enquanto ((resp== "s") ou (resp=="S")){
 			inicio()
 		}
 		
-		se (resp=="n"){
+		se ((resp=="n") ou (resp == "N")){
 			escreva("Fim do Programa!")
 		}
 	}
@@ -68,7 +68,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 99; 
+ * @POSICAO-CURSOR = 575; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {operacao, 6, 11, 8};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
