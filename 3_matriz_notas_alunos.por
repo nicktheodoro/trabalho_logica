@@ -1,6 +1,6 @@
 programa
 {
-	const inteiro qtdeDeAlunos =10
+	const inteiro qtdeDeAlunos = 3
 	funcao inicio(){
 		informa_dados()
 	}
@@ -9,8 +9,8 @@ programa
 	funcao informa_dados()
 	{
 	
-		inteiro indice=1,not1,not2//variável que contrala quantos alunaos serão avaliados
-		real media
+		inteiro indice = 1 //variável que contrala quantos alunaos serão avaliados
+		real media,not1 ,not2
 		cadeia nome,resultado[11][5]
 
 		enquanto(indice<=qtdeDeAlunos){
@@ -18,10 +18,10 @@ programa
 			escreva("Nome do aluno: ")
 			leia(nome)
 		
-			escreva("Informe a nota1 ")
+			escreva("Informe a nota 1: ")
 			leia(not1)
 		
-			escreva("Informe a nota2 ")
+			escreva("Informe a nota 2: ")
 			leia(not2)
 			limpa()
 
@@ -45,17 +45,21 @@ programa
 	//essa função escreve na tela a matriz com os resultados dos alunos
 	funcao mostra_resultado(cadeia resultado[][], inteiro numeroDeAlunos){
 		inteiro indice=0
+		
 		enquanto (indice<=qtdeDeAlunos){
-			escreva(resultado[indice][0] + "	" + resultado[indice][1] + "	" + resultado[indice][2] + "	" + resultado[indice][3] + "	" + resultado[indice][4] + "\n")
-			indice=indice+1
+			escreva(resultado[indice][0] + "	" + resultado[indice][1] + "	" + 
+			resultado[indice][2] + "	" + resultado[indice][3] + "	" + 
+			resultado[indice][4] + "\n")
+			
+			indice = indice + 1
 		}
 	}
 
 	//essa função calcula a média dos alunos
-	funcao real calculo_media (inteiro n1, inteiro n2){
+	funcao real calculo_media (real n1, real n2){
 		real media
 	
-		media = (n1+n2)/2
+		media = (n1 + n2) / 2
 		retorne media
 	}
 
@@ -63,7 +67,7 @@ programa
 	
 	funcao cadeia cria_status(real med){
 		cadeia status=""
-		se(med>=6){
+		se(med >= 6){
 			status = "Aprovado"
 		}senao{
 			status = "Reprovado"
@@ -76,7 +80,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1748; 
+ * @POSICAO-CURSOR = 42; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
