@@ -10,7 +10,7 @@ programa
 		escreva("Quantos números primos você quer que sejam impressos? ")
 		leia(qtdePrimoDesejada)
 
-		valorTestado = 2
+		valorTestado = 1
 		
 		enquanto(qtdePrimos <= qtdePrimoDesejada){
 			
@@ -40,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 305; 
+ * @POSICAO-CURSOR = 253; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

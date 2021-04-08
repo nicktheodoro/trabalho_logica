@@ -1,1 +1,2 @@
-# trabalho_logica
+# Trabalho de lógica para o Serratec
+
