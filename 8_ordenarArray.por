@@ -41,7 +41,7 @@ programa
 				}
 		}
 	}
-		senao{
+		senao se(ordem == "decrescente"){
 			para( contador = 9; contador >= 0; contador--){
 				se(contador > 0) {
 					escreva(vetor[contador] + ", ")
@@ -58,7 +58,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 902; 
+ * @POSICAO-CURSOR = 738; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
