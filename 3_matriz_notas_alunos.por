@@ -1,6 +1,6 @@
 programa
 {
-	const inteiro qtdeDeAlunos = 3
+	const inteiro qtdeDeAlunos = 10
 	funcao inicio(){
 		informa_dados()
 	}
@@ -80,7 +80,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 42; 
+ * @POSICAO-CURSOR = 399; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
