@@ -13,7 +13,7 @@ programa
 		limpa()
 
 		se (resp==1){
-			escreva("Escolha quantos numeros da sequência vc deseja ver: ")
+			escreva("Escolha quantos numeros da sequência você deseja ver: ")
 		     leia (numero)
 		
 		     para (inteiro f=1;f<= numero;f++){
@@ -52,7 +52,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1046; 
+ * @POSICAO-CURSOR = 342; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
