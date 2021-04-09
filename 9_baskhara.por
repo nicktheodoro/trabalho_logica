@@ -4,7 +4,7 @@ programa
 
     funcao inicio()
     {
-        inteiro a, b, c, delta
+        real a, b, c, delta
         real x1, x2
         
         escreva("Informe o valor de a: ")
@@ -18,13 +18,16 @@ programa
         
         delta = b * b - 4 * a * c
         
-        se (m.raiz(delta, 2) > 0){
-            x1 = ((- b) + m.raiz(delta, 2))/(2 * a)
-            x2 = ((- b) - m.raiz(delta, 2))/(2 * a)
-            escreva(a, "x²+", b, "x-", c, "=0", " -> X1=", x1, " X2=", x2)
-        }senao se (m.raiz(delta, 2) == 0){
+        se (m.raiz(delta, 2.0) > 0){
+            x1 = ((- b) + m.raiz(delta, 2.0))/(2 * a)
+            x2 = ((- b) - m.raiz(delta, 2.0))/(2 * a)
+            escreva("delta: " + delta,
+            		"\nx' = " + x1,
+            		"\nx'' = " + x2)
+        }senao se (m.raiz(delta, 2.0) == 0){
             x1 = (-b) / (2 * a)
-            escreva(a, "x²+", b, "x-", c, "=0", " -> X1=", x1)
+            escreva("delta: " + delta,
+            		"\nx' = " + x1)
         }senao {
             escreva("Delta negativo")
         }
@@ -35,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 179; 
+ * @POSICAO-CURSOR = 659; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
